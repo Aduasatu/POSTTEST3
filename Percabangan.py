@@ -224,6 +224,13 @@ def menu_keju():
             print ("Tunggu sesaat...")
             time.sleep (3)
             kembali()
+        else:
+            print ("Mohon maaf, hanya masukkan angka 1 - 2")
+            print ("============ Terima Kasih ============")
+            print ("\n")
+            print ("Tunggu sesaat untuk kembali ke awal....")
+            time.sleep (2)
+            menu_keju()
     elif a1 < 1 :
         clear_screen()
         print("Mohon Maaf hanya bisa Memesan lebih dari 0 kue")
@@ -412,7 +419,13 @@ def menu_coklat():
             print ("Tunggu sesaat...")
             time.sleep (3)
             kembali()
-
+        else:
+            print ("Mohon maaf, hanya masukkan angka 1 - 2")
+            print ("============ Terima Kasih ============")
+            print ("\n")
+            print ("Tunggu sesaat untuk kembali ke awal....")
+            time.sleep (2)
+            menu_coklat()
     elif a1 < 1:
         clear_screen()
         print("Mohon Maaf hanya bisa Memesan lebih dari 0 kue")
